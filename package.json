@@ -1,0 +1,21 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonKristiono/ZakatAppAPI.git"
+  },
+  "author": "anton kristiono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonKristiono/ZakatAppAPI/issues"
+  },
+  "homepage": "https://github.com/AntonKristiono/ZakatAppAPI#readme"
+}
