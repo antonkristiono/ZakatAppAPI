@@ -1,13 +1,14 @@
-const express = require ('express');
-const dotenv = require ('dotenv');
+const express = require('express');
+const dotenv = require('dotenv');
 
 // load env variable
 dotenv.config({ path: './config/config.env' });
 
 const app = express();
 
-app.get('/',(req,res) => {
-    res.send('Hello ini adalah Express')
+app.get('/', (req, res) => {
+    res.setHeader('Content-Type','text/json')
+    res.json({ name: "anton" })
 })
 
 const PORT = process.env.PORT || 5000;
